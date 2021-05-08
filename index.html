@@ -12,10 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Theme CSS -->
-    <link href="assets/css/agency.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
     <!-- Javascript-->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/main1.js"></script>
@@ -46,20 +46,20 @@
         </div>
     </nav>
     <div class="jumbotron text-center">
-        <h1>Kerasan Studio</h1>
+        <h1 class="w3-center w3-animate-zoom">Kerasan Studio</h1>
         <br>
         <a href="#services" class="btn btn-warning btn-lg" role="button">Tell Me More</a>
     </div>
     <!-- Container (Produk Section) -->
     <div id="produk" class="container-fluid">
-        <h2 class="text-center">PRODUK & LAYANAN</h2>
+        <h2 class="text-center">PRODUK</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="thumbnail">
                     <a href="assets/image/background.jpeg" target="_blank">
-                        <img src="assets/image/background.jpeg" alt="Lights" style="width:200px">
-                        <div class="caption">
-                            <h4 class="text-center">COMING SOON</h4>
+                        <img src="assets/image/coming-soon.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">Moomo Dessert</div>
                         </div>
                     </a>
                 </div>
@@ -67,19 +67,19 @@
             <div class="col-md-4">
                 <div class="thumbnail">
                     <a href="assets/image/umkm.png" target="_blank">
-                        <img src="assets/image/umkm.png" alt="Nature" style="width:200px">
-                        <div class="caption">
-                            <h4 class="text-center">COMING SOON</h4>
+                        <img src="assets/image/coming-soon.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">Karet</div>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <a href="assets/image/umkm.png" target="_blank">
-                        <img src="assets/image/umkm.png" alt="Fjords" style="width:200px">
-                        <div class="caption">
-                            <h4 class="text-center">COMING SOON</h4>
+                    <a href="assets/image/background.jpeg" target="_blank">
+                        <img src="assets/image/coming-soon.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">Comming Soon</div>
                         </div>
                     </a>
                 </div>
@@ -243,7 +243,7 @@
         </div>
     </div>
     <!-- Portfolio Grid Section -->
-    <div id="portfolio" class="container-fluid text-center bg-grey">
+    <section id="portfolio" class="bg-grey">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -251,16 +251,16 @@
                     <h3 class="section-subheading text-muted">This is about my portofolio</h3>
                 </div>
             </div>
-            <div class="container-fluid text-center">
+            <div class="container-fluid bg-3 text-center">
                 <div class="row">
                     <div class="col-sm-3">
                         <h4 class="section-subheading text-muted"><a href="https://www.wibowomulya.com/" title="Visit Wibowo Mulya Grafika">Wibowo Mulya Grafika</a></h4>
-                        <img src="assets/image/portfolio/wb.jpg" class="img-responsive " style="width:100% " alt="Image ">
+                        <img src="assets/image/portfolio/wb.jpg" class="img-responsive" style="width:100%" alt="Image">
                         <br>
                         <button type="button" class="btn btn-info btn-small" data-toggle="modal" data-target="#myModal">Zoom</button>
                         <!-- Modal -->
                         <div id="myModal" class="modal fade" role="dialog">
-                            <div class="modal-dialog ">
+                            <div class="modal-dialog">
                                 <!-- konten modal-->
                                 <div class="modal-content">
                                     <br>
@@ -337,37 +337,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
-                        <h4 class="section-subheading text-muted"><a href="https://rifqimuhammadafiatin.github.io/" title="Visit Rifqi Muhammad Afiatin">My Portfolio</a></h4>
-                        <img src="assets/image/portfolio/g9.jpg" class="img-responsive " style="width:100% " alt="Image">
-                        <br>
-                        <button type="button" class="btn btn-info btn-small" data-toggle="modal" data-target="#myModal2">Zoom</button>
-                        <!-- Modal -->
-                        <div id="myModal2" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
-                                <!-- konten modal-->
-                                <div class="modal-content">
-                                    <br>
-                                    <!-- heading modal -->
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        <h4 class="modal-title">My Portfolio</h4>
-                                    </div>
-                                    <!-- body modal -->
-                                    <div class="modal-body">
-                                        <img src="assets/image/portfolio/g9.jpg" class="img-responsive" style="width:100%" alt="Image">
-                                    </div>
-                                    <!-- footer modal -->
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div><br>
-            <div class="container-fluid text-center">
+            <div class="container-fluid bg-3 text-center">
                 <div class="row">
                     <div class="col-sm-3">
                         <h4 class="section-subheading text-muted">Auto Show</h4>
@@ -483,7 +455,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid text-center">
+            <div class="container-fluid bg-3 text-center">
                 <div class="row">
                     <div class="col-sm-3">
                         <h4 class="section-subheading text-muted">Bengkel</h4>
@@ -516,23 +488,19 @@
                 </div>
             </div>
         </div>
-    </div>
+        </div>
+    </section>
     <!-- Container (Contact Section) -->
     <div id="contact" class="container-fluid">
         <h2 class="text-center ">CONTACT</h2>
         <div class="row ">
             <div class="col-sm-5 ">
-                <p>Contact us and we'll get back to you within 24 hours.</p>
-                <p><span class="glyphicon glyphicon-map-marker "></span> Tambun Selatan, Jawa Barat, Indonesia</p>
-                <p><span class="glyphicon glyphicon-phone "></span> 085782628236 (Rifqi Muhammad Afiatin)</p>
-                <p><span class="glyphicon glyphicon-phone "></span> 081287560038 (Rangga Rully Saputra)</p>
-                <p><span class="glyphicon glyphicon-envelope "></span> rifqima23@gmail.com</p>
+                <p>Contact us and we'll get back to you.</p>
+                <p><span class="glyphicon glyphicon-map-marker "></span> : Tambun Selatan, Jawa Barat, Indonesia</p>
+                <p><span class="glyphicon glyphicon-envelope "></span> : rifqima23@gmail.com</p>
             </div>
         </div>
     </div>
-
-
-
     <footer class="container-fluid text-center bg-grey ">
         <a href="#myPage " title="To Top ">
             <span class="glyphicon glyphicon-chevron-up "></span>
