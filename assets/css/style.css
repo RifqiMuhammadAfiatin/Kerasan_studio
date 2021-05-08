@@ -1,6 +1,11 @@
 body {
+<<<<<<< HEAD
     font: 400 15px cursive, sans-serif;
     line-height: 1.8em;
+=======
+    font: 400 15px "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.8;
+>>>>>>> ba93ed6c9e04f4cc29f620b723ab9d16e87d87e7
     color: #818181;
 }
 
